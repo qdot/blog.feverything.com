@@ -20,7 +20,7 @@ FEED_DOMAIN = SITEURL
 TRANSLATION_FEED = None
 FEED_MAX_ITEMS = 10
 
-# THEME = "themes/slashdong"
+THEME = "themes/feverything"
 
 # Relative to content dir
 PAGE_DIR = 'pages'
@@ -53,6 +53,7 @@ FILES_TO_COPY = (('extras/robots.txt', 'robots.txt'),
                  ('extras/favicon.ico', 'favicon.ico'),
                  ('extras/htaccess', '.htaccess'))
 
-TEMPLATE_PAGES = {'templates/404.html': "404/index.html"}
+TEMPLATE_PAGES = {'templates/404.html': "404/index.html",
+                  'templates/archives.html': "archives/index.html"}
 
 MD_EXTENSIONS = ['codehilite', 'extra', 'video']

@@ -1,0 +1,12 @@
+{% extends "base.html"%}
+{% block content %}
+<div class="archive-list">
+<h3>Post Archives</h3>
+
+<ul>
+{% for article in articles %}
+<li><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.date }} - {{ article.title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}

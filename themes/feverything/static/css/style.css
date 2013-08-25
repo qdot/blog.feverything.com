@@ -1,0 +1,303 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.mainjumbo {
+    height: 400px;
+    background: #000;
+    color: #fff;
+}
+
+.fetitle {
+    height: 400px;
+    float: left;
+}
+
+.fegrid {
+    height: 400px;
+    float: right;
+}
+
+.titlefont {
+    font-family: 'Passion One', cursive;
+}
+
+.navicons {
+    font-size: 24pt;
+    line-height: 20px;
+}
+
+.navicons > li > a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.page {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.blogheader {
+    margin: 0 auto;
+}
+
+.bloglogo {
+    margin: 0 auto;
+    font-size: 128pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bloglinks {
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.bloglinks a {
+    color: #444;
+    text-decoration: none;
+}
+
+.bloglinks a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+.bloglinks a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.bloglinks ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bloglinks li {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style: none;
+}
+.post {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.post h1 {
+    line-height:125%;
+}
+
+.post h2 {
+    line-height:125%;
+}
+
+.post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posttitle {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.posttitle h3 {
+    text-align: center;
+    font-size:22pt;
+    font-weight:bold;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top:20px;
+    margin-bottom:5px;
+    padding: 0;
+    color: #000;
+}
+
+.posttitle a {
+    text-decoration: none;
+    color: #000;
+}
+
+.posttitle a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.posttitle a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.postinfo {
+    text-align: center;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    font-size:12pt;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.postinfo a {
+    font-size:16pt;
+    font-weight:bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.postinfo a:visited {
+    font-size:16pt;
+    font-weight:bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.postinfo a:hover {
+    font-size:16pt;
+    font-weight:bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.postcontent {
+    font-size:14pt;
+    line-height:125%;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+}
+
+.post .more {
+    font-size:18pt;
+}
+
+.fullhr {
+    width:100%;
+    border-top: 1px solid #000;
+}
+
+.postnav {
+    font-size:18pt;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.postcontent iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.postnext {
+    text-align:right;
+}
+
+.postcomments {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.archive-list {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive-list h3 {
+    font-size:20pt;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+
+.archive-list ul {
+    list-style: none;
+}
+
+.archive-list li {
+    margin-bottom: 5px;
+}
+
+.archive-list a {
+    color: #444;
+    text-decoration: none;
+}
+
+.archive-list a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.archive-list a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.image-caption {
+    margin-top:5px;
+    font-size: 8pt;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom:5px;   
+}
+
+.highlight {
+    font-family: DejaVu Sans Mono;
+    font-size: 8pt;
+    background: #ddd;
+    padding-left: 10px;
+}
+
+.tag-list-large {
+    font-family: CartoGothic Caps Book;
+    font-size: 10pt;
+}
+
+.postshare {
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.postshare a {
+    color: #444;
+    text-decoration: none;
+}
+
+.postshare a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.postshare a:visited {
+    color: #444;
+    text-decoration: none;
+}
+
+.postshare ul {
+    padding: 0;
+    margin: 0;
+}
+
+.postshare li {
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style: none;
+}

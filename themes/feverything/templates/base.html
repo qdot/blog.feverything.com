@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  {% block head %}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css' />
+    <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+		<meta charset='utf-8'>
+    <link type="text/css" rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments_friendly.css" />
+    <link type="text/css" rel="stylesheet" href="{{ SITEURL }}/theme/bootstrap/css/bootstrap.min.css" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+    <link rel="alternate" type="application/atom+xml" title="FEverything Blog" href="http://blog.feverything.com/atom.xml" />
+  </head>
+  {% endblock %}
+  {% block body %}
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+	<div class="navbar-header navbar-left">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand titlefont" href="#">FuckEverything</a>
+	</div>
+	<div class="navbar-collapse collapse">
+	  <ul class="nav navbar-nav">
+	    <li class="active"><a href="#">Home</a></li>
+	    <li><a href="#about">About</a></li>
+	    <li><a href="#contact">Blog</a></li>
+	    <li class="dropdown">
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+	      <ul class="dropdown-menu">
+		<li><a href="#">Hardware Drivers</a></li>
+		<li><a href="#">FuckEverything</a></li>
+		<li><a href="#">Giftic</a></li>
+		<li><a href="#">Dutch Rudder</a></li>
+	      </ul>
+	    </li>
+	  </ul>
+	  <ul class="navicons nav navbar-nav navbar-right">
+	    <li><a href='http://github.com/fuckeverything'><i class="icon-github-sign"></i></a></li>
+	    <li><a href='http://twitter.com/fallthethings'><i class="icon-twitter-sign"></i></a></li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="page">
+	<div class="blogheader">
+	  <div class="bloglogo">FE</div>
+	  <div class="bloglinks">
+	    <ul>
+	      <li><a href="{{ SITEURL }}/">Home</a></li>
+	      <li>·</li>
+	      <li><a href="{{ SITEURL }}/archives">Archives</a></li>
+	      <li>·</li>
+	      <li><a href="{{ SITEURL }}/tag">Tags</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<div class="fullhr"></div>
+	<div class="content">
+	  {% block content %}
+	  {% endblock %}
+	</div>
+      </div>
+    </div>
+    <script src="{{ SITEURL }}/theme/jquery/jquery-2.0.3.min.js"></script>
+    <script src="{{ SITEURL }}/theme/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+  {% endblock %}
+</html>

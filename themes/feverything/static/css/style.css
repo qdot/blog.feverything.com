@@ -1,17 +1,6 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-
-.jumbotron {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-
-.mainjumbo {
-    height: 400px;
-    background: #000;
-    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .fetitle {
@@ -28,12 +17,8 @@ body {
     font-family: 'Passion One', cursive;
 }
 
-.navicons {
-    font-size: 24pt;
-    line-height: 20px;
-}
-
 .navicons > li > a {
+    font-size: 24pt;
     padding-top: 10px;
     padding-bottom: 0px;
 }

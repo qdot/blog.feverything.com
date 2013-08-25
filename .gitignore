@@ -1,2 +1,4 @@
 blog-env
 output
+*.pid
+*.pyc
